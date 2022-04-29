@@ -1,0 +1,162 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team</title>
+  <link rel="stylesheet" href="{% static '/css/team.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="icon" href="{% static '/images/icon2.png' %}" type="image/x-icon">
+</head>
+<style>
+  body{
+    background-image: url("{%static '/images/found2.jpg' %}");
+  }
+  .logo_inner{
+    background-image: url("{%static '/images/logo2.png' %}");
+  }
+  .logo_inner:hover{
+    background-image: url("{%static '/images/home2.png' %}");
+  }
+</style>
+<body>
+  <div class="layer layer1"></div>
+    <div class="text_">
+      <a href="/home"><div class="logo_inner"></div></a>
+      <p>
+        beside 'THEM','EVERYDAY'
+      </p>
+    </div>
+    <!-- <div class="logo_inner"></div> -->
+  <div class="layer layer2"></div>
+  <div class="flip-card f1">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{% static '/images/manosij.jpg' %}" alt="KOLKATA" style="width:200px;height:200px; border-radius: 100%;">
+      </div>
+      <div class="flip-card-back">
+        <h1>MANOSIJ TARAFDAR</h1>
+        <p>
+          Founder & COO
+          CTO TGC Ltd.
+
+          coo@aocna.ngo.in
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card f2">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{% static '/images/monalisa.jpg' %}" alt="Profile" style="width:200px;height:200px; border-radius: 100%;">
+      </div>
+      <div class="flip-card-back">
+        <h1>MONALISA TARAFDAR</h1>
+        <p>
+          Founder & CEO
+          COO TGC-CRCH 
+
+          ceo@aocna.ngo.in
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card f3">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{% static '/images/riya.jpg' %}" alt="BANGALURU" style="width:200px;height:200px; border-radius: 100%;">
+      </div>
+      <div class="flip-card-back">
+        <h1>RIYA DHAR</h1>
+        <p>
+          Chief Marketing Officer
+
+          cmo@aocna.ngo.in
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card f4">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{% static '/images/sourav.jpg' %}" alt="MUMBAI" style="width:200px;height:200px; border-radius: 100%;">
+      </div>
+      <div class="flip-card-back">
+        <h1>SOURAV DAS MAJUMDER</h1>
+        <p>
+          Cheif Relations Officer
+
+          cro@aocna.ngo.in
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card f5">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{% static '/images/rahul.jpg' %}" alt="HYDRABAD" style="width:200px;height:200px; border-radius: 100%;">
+      </div>
+      <div class="flip-card-back">
+        <h1>RAHUL KHEDIA</h1>
+        <p>
+          CTO & Project Co.ord
+
+          cto@aocna.ngo.in
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card f6">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{% static '/images/sonal.jpg' %}" alt="CHENNAI" style="width:200px;height:200px; border-radius: 100%; background-position: center;">
+      </div>
+      <div class="flip-card-back">
+        <h1>SONAL SINGH</h1>
+        <p>
+          Cheif Financial Controller
+
+          cfc@aocna.ngo.in
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card f7">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{% static '/images/aditi.jpg' %}" alt="VIZAG" style="width:200px;height:200px; border-radius:100%;">
+      </div>
+      <div class="flip-card-back">
+        <h1>ADITI TIWARI</h1>
+        <p>
+          MD - Centre Operations
+
+          mdco@aocna.ngo.in
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card f8">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="{% static '/images/raj2.jpg' %}" alt="PUNE" style="width:200px;height:200px; border-radius: 100%;">
+      </div>
+      <div class="flip-card-back">
+        <h1>RAJ KUMAR HARI</h1>
+        <p>
+          MD - Sister Organizations
+
+          mdso@aocna.ngo.in
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

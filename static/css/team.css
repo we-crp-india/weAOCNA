@@ -1,0 +1,160 @@
+body{
+    /* background-image: url('images/found2.jpg'); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 135vh;
+  }
+  
+  .layer{
+    position: absolute;
+    display: inline;
+    background-color:black;
+    opacity: 45%;
+    width: 1300px;
+    left:17px;
+  }
+  
+  .text_ p{
+    font-size: 50px;
+    font-family:'Roboto Mono', monospace;
+    display: inline;
+    position: absolute;
+    color: antiquewhite;
+    top: -105px;
+    left:290px;
+    padding: 100px;
+  }
+  
+  .layer1{
+    height: 150px;
+    border-radius: 40px;
+  }
+  
+  .layer2{
+    top: 160px;
+    height: 670px;
+    border-radius: 30px;
+  }
+  
+  .flip-card {
+    position: relative;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    /* left: 50px;
+    top: 170px; */
+    cursor: pointer;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 30px;
+  }
+  
+  .flip-card-back p{
+      white-space: pre-line;
+      font-family: 'Courier New', Courier, monospace
+  }
+  .flip-card-back h1{
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .f1{
+    left: 40px;
+    top: -80px;
+  }
+  
+  .f2{
+    left: 355px;
+    top: -380px;
+  }
+  
+  .f3{
+    left: 670px;
+    top: -680px;
+  }
+  
+  .f4{
+    left: 988px;
+    top: -980px;
+  }
+  
+  .f5{
+    left: 40px;
+    top: -960px;
+  }
+  
+  .f6{
+      left: 355px;
+      top:-1260px;
+  }
+  
+  .f7{
+    left: 670px;
+    top: -1560px;
+  }
+  
+  .f8{
+    left: 988px;
+    top: -1860px;
+  }
+  
+  .logo_inner{
+    display: inline-block;
+    /* background-image: url('images/logo2.png'); */
+    width: 20vw;
+    height: 42.7vh;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 50%;
+    background-position: center;
+    padding: -100px;
+    background-size: 30%;
+    bottom: 50px;
+    position: relative;
+    left: 90px;
+  }
+   .logo_inner:hover{
+    transform: rotateY(180deg);
+    /* background-image: url('images/home2.png'); */
+    background-position: center;
+    background-size: 30%;
+    transition-duration: .4s;
+    transition-delay: .4s;
+  }

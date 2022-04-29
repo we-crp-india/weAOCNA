@@ -1,0 +1,78 @@
+header{
+    top: 0;
+    left: 0;
+    /* background-image: url("{% static '/images/header1.png' %}"); */
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-position: right;
+}
+header p{
+    font-family:monospace;
+    font-size: 20px;
+    position: absolute;
+    font-weight: bold;
+    left: 58%;
+    top: 40px;
+    width: 300px;
+    border-left: 3px solid crimson;
+    text-align: center;
+}
+main{
+    position: fixed;
+    width: 100%;
+    height: 425px;
+    margin-top: 105px;
+}
+main h5{
+    font-weight: bold;
+    position: relative;
+    top:28%;
+    left: 1.5%;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    position: fixed;
+    left: 315px;
+}
+th{
+    font-family: monospace;
+    font-size: 20px;
+}
+tr{
+    text-align: center;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color:#003153;
+}
+footer h2{
+    position: absolute;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    left: 10px;
+    top: 8px;
+    border-right: 3px solid white;
+    width: 170px;
+    height: 57px;
+}
+footer p{
+    font-family: monospace;
+    color: white;
+    white-space: pre-wrap;
+    text-align: top center;
+    margin: -20px 980px;
+    width: 380px;
+    height: 100px;
+    font-size: 15.5px;
+    padding: -25px 1px;
+    position: fixed;
+    margin-right: -100px;
+}

@@ -1,0 +1,71 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static '/css/about.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="{% static '/images/icon2.png' %}" type="image/x-icon">
+  <title>About us</title>
+  <style>
+    body {
+      background-image: url("{% static '/images/aboutimg.jpg' %}");
+      font-family: Helvetica, sans-serif;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="timeline">
+    <div class="container left">
+      <div class="content">
+        <h2>2020</h2>
+        <p>
+          We started from a Single appartment in KOLKATA with a dream to revolutionize 'Animal Care'.
+
+          After two months of operation , we got recnognized by Veterinary Council of India.
+
+          We achieved 200+ aid & rescue and also provided them with a forever home.
+        </p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>2021</h2>
+        <p>
+          We transfered ourselves to TGC-MT as a non-profit initiative of them.
+
+          We launched our very first large scale vaccination and aiding drive from January to March '21.
+
+          We partnered with 'PETA'.
+
+          We launched 5 centers - 3 in KOLKATA , BANGALURU , MUMBAI.
+        </p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>2022</h2>
+        <p>
+          We started 2022 with a much a bigger goal - 9 centers PAN INDIA : DELHI , CHENNAI , HYDRABAD , VIJAG
+
+          Partership with 'The Humane Society of United States' for foreign presence and co-ordination.
+
+          Multiple awareness programs online.
+
+          Multiple stores of Animal Care and Nuturing supplies.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="home">
+    <a href="/home"><button class="btn"><i class="fa fa-home"></i> Home</button></a>
+  </div>
+</body>
+
+</html>

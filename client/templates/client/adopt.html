@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoptMe</title>
+    <link rel="icon" href="{% static '/images/icon2.png' %}" type="image/x-icon">
+</head>
+<style>
+    header{
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #041E42;
+        width: 100%;
+        height: 100px;
+    }
+    header h1{
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 80px;
+        position: fixed;
+        left: 10%;
+        top: -45px;
+    }
+    .main h1{
+        color: black;
+        font-size: larger;
+        position: fixed;
+        top: 18%;
+        font-size: 50px;
+        font-family: monospace;
+        left: 40%;
+    }
+    .main p{
+        color: black;
+        font-size: larger;
+        position: fixed;
+        top: 30%;
+        font-size: 25px;
+        font-family: monospace;
+        left: 25%;
+    }
+</style>
+<body>
+    <header>
+        <img src="{% static '/images/logo-modified.png' %}" alt="" style="width: 90px;height: 90px;position: fixed;top: 7px;left: 30px;">
+        <h1>AOCNA</h1>
+    </header>
+    <div class="main">
+        <h1>COMING SOON</h1>
+        <p>For adoption contact or visit our centers <a href="/locateus">here</a></p>
+    </div>
+</body>
+</html>

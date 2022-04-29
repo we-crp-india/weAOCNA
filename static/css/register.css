@@ -1,0 +1,194 @@
+body{
+    position: absolute;
+    background-image: url('images/rbg.jpg');
+    height: auto;
+    width: auto;
+}
+.layer{
+    position: absolute;
+    display: inline;
+    background-color:black;
+    opacity: 43%;
+    height: 200vh;
+    width: 90vw;
+    left: 55px;
+    margin-top: -130px;
+}
+
+.data{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 600px;
+    height: 700px;
+    /* border: 2px solid red; */
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: 35px; */
+    left:370px;
+    top: 230px;
+    color: antiquewhite;
+    background-position: center;
+}
+
+.wrapper {
+    height: 20vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    font-size: larger;
+  }
+  
+  .typing-demo {
+    width: 24ch;
+    animation: typing 2s steps(24), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .title_{
+      position:relative;
+      display: inline;
+      top: -600px;
+      left: 78px;
+  }
+
+  .mb-3 input{
+      border-radius: 65px;
+  }
+  .mb-3 textarea{
+    border-radius: 20px;
+}
+
+.data select{
+    border-radius: 65px;
+    margin-bottom: 30px;
+}
+
+.data button{
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 240px;
+    padding: 5px 10px;
+}
+
+.logo_inner{
+    display: inline-block;
+    background-image: url('images/logo2.png');
+    width: 20vw;
+    height: 42.7vh;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 50%;
+    background-position: center;
+    padding: -100px;
+    background-size: 30%;
+    bottom: 290px;
+    position: relative;
+    left: 460px;
+  }
+   .logo_inner:hover{
+     transform: rotateY(180deg);
+    background-image: url('images/home2.png');
+    background-position: center;
+    background-size: 30%;
+    transition-duration: .4s;
+    transition-delay: .4s;
+  }
+
+.bd{
+    position: relative;
+    border-bottom: 3px solid aqua;
+    width: 1190px;
+    top: 245px;
+    left: 72px;
+}
+
+#phn{
+    width: 170px;
+}
+
+#email{
+    width: 400px;
+}
+#brd{
+    width: 200px;
+}
+#sel1{
+    position: relative;
+    width: 100px;
+    top: -40px;
+}
+
+#mySwitch{
+    position: relative;
+    left: 300px;
+    top: -50px;
+    padding: 10px 20px;
+}
+#vaclebel{
+    position: relative;
+    left: 310px;
+    top: -50px;
+    font-size: 20px;
+}
+#commid{
+    position: relative;
+    top: -40px;
+}
+#comment2{
+    position: relative;
+    top: -35px;
+}
+#idcon{
+    position: relative;
+    top: -35px;
+}
+#subid{
+    position: relative;
+    top: -120px;
+    left: 240px;
+}
+
+.image-container {
+    /* background-image: url("img_nature.jpg"); The image used - important! */
+    background-color:aqua;
+    background-size: cover;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 0px; /* Some height */
+    top: -65px;
+    left: 74.1px;
+  }
+  
+  .text {
+    background-color: aqua;
+    color:crimson;
+    font-size: 8.2vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    width: 100%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 70%;
+  }
