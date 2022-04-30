@@ -13,6 +13,7 @@ from django.contrib import messages
 from datetime import datetime as d
 from adminhome.models import Volunteer
 
+#login user
 def home(request):
     group = None
     admin_groups = ["admins"]
@@ -40,11 +41,12 @@ def home(request):
             return redirect('error')
     return render(request,'adminhome/log.html')
 
+#logout user
 def logoutUser(request):
     logout(request)
     return redirect('login')
     
-
+#dashboard
 @login_required(login_url='login')
 def dash(request):
     allowed_roles = ["admins"]
