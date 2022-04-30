@@ -79,6 +79,7 @@ def dash(request):
     }
     return render(request,'adminhome/dashboard.html',context)
 
+#Update for Volunteers
 @login_required(login_url='login')
 def updateCase(request):
     if request.method == "POST":
@@ -96,13 +97,14 @@ def updateCase(request):
             messages.error(request,"No Data Found")
     return render(request,'adminhome/update.html')
 
-
+#Error Page
 def ErrorFound(request):
     context = {
         'back':'login'
     }
     return render(request,'adminhome/error.html')
 
+#detailed info
 def Details(request):
     try:
         if request.session.has_key('case_id') and request.session["case_id"] != "":
